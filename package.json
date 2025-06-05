@@ -1,0 +1,13 @@
+{
+  "name": "teams-keyvalue-bot",
+  "version": "1.0.0",
+  "description": "Teams에서 key 입력 시 value 또는 이미지 반환 Lambda 챗봇",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "botbuilder": "^4.23.0"
+  }
+}
