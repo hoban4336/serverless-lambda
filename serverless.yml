@@ -1,0 +1,14 @@
+service: my-lambda-service
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: ap-northeast-2
+
+functions:
+  apihandler:
+    handler: index.handler
+    events:
+      - http:
+          path: /mybot
+          method: post
