@@ -3,6 +3,7 @@ name: Deploy Lambda with API Gateway
 on:
   push:
     branches:
+      - master
       - main
 
 jobs:
